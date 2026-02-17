@@ -10,6 +10,14 @@ python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
 ```
+
+### Create .env File
+Create a `.env` file in the `backend` folder with the following content:
+```
+SECRET_KEY=your-secret-key-here
+```
+Replace `your-secret-key-here` with a secure secret key for Django.
+
 Make the port 8000 public.
 
 Test the following endpoints. Please note that your Codespaces URLs will differ from the examples shown below, as these correspond to a specific instance.
